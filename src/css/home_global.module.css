@@ -1,0 +1,154 @@
+.popup {
+    background-color: #f04242 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 23px;
+    font-weight: 500;
+    width: 100%;
+    height: 5vh;
+}
+
+.popup span {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 200ms;
+}
+
+.popup span:hover {
+    letter-spacing: 1px;
+    transition: 200ms;
+}
+
+.bannerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 100%;
+    height: 100px;
+
+    background-color: #ff4d4d !important;
+
+    font-size: 43px;
+    padding: 10px;
+}
+
+.bannerDiv h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(245, 245, 245);
+}
+
+.pawBanner {
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+.optionsDiv {
+    width: 100%;
+    height: 50px;
+    background-color: #ff4d4d !important;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.optionsDiv li {
+    font-size: 38px;
+    display: inline-block;
+    
+    padding: 0 40px;
+    font-weight: 300;
+}
+
+.optionsDiv p:hover {
+    cursor: pointer;
+}
+
+.optionsli {
+    color: rgb(255, 255, 255);
+}
+
+.optionsDiv p {
+    transition: 200ms;
+    padding: 0 30px;
+}
+
+.optionsDiv p:hover {
+    font-size: 44px;
+
+    transition: 200ms;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    height: 65px;
+    background-color: #ff4d4d !important;
+    font-weight: 400;
+
+    padding: 10px;
+}
+
+.search input {
+    border-radius: 20px;
+    border: none;
+
+    height: 40px;
+    width: 280px;
+
+    font-size: 25px;
+    color: black;
+
+    padding: 10px;
+    outline: none;
+}
+
+.searchDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+
+    height: 40px;
+    width: 345px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    outline: none;
+}
+
+.searchDiv p {
+    font-size: 28px;
+    padding-right: 10px;
+    color: rgb(12, 12, 12);
+    font-weight: 400;
+}
+
+.searchIcon {
+    position: relative;
+    height: 20px;
+    
+    color: rgb(57, 57, 57);
+}
+
+.FilterSearch {
+    padding: 5px;
+    padding-top: 6px;
+    border-radius: 20px;
+    
+    height: 20px;
+    background-color: rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+
+    cursor: pointer;
+}
+
+
+
