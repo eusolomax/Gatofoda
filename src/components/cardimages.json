@@ -1,0 +1,9 @@
+[    
+    {   
+        "img1": "/public/cardimages/image1.png",
+        "img2": "./cardimages/image2.png",
+        "img3": "./cardimages/image3.png",
+        "img4": "./cardimages/image4.png",
+        "img5": "./cardimages/image5.png"
+    }
+]

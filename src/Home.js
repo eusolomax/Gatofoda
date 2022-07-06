@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <div className={head}>
         <div className={head.popup}>
-          <p>Primeira vez por aqui? use nosso cupom <span>GATOFODA20</span> para 20% de desconto em qualquer produto!</p>
+          <p>• Primeira vez por aqui? use nosso cupom <span>GATOFODA20</span> para 20% de desconto em qualquer produto! •</p>
         </div>
         <div className={head.bannerDiv}>
           <h1>Gatofoda <FontAwesomeIcon className={head.pawBanner} icon={faPaw} /></h1>
@@ -53,6 +53,20 @@ export default function Home() {
           <h1 className={body.houseTitle}>Seu gato acordou hoje virado no jiraiya?</h1>
 
         <div className={global.cardGrid}>
+          <Card
+          img="../public/cardimages/image1.png" 
+          title="Catnip | Erva de Gato"
+          desc="Seu gato ta possuido? Água santa talvez resolva, mas esse aqui é 100% garantido!"
+          value="16,50">
+          </Card>
+          
+          <Card
+          title="Catnip | Erva de Gato"
+          desc="Seu gato ta possuido? Água santa talvez resolva, mas esse aqui é 100% garantido!"
+          value="16,50">
+
+          </Card>
+
           <Card
           title="Catnip | Erva de Gato"
           desc="Seu gato ta possuido? Água santa talvez resolva, mas esse aqui é 100% garantido!"
